@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+.post{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+    height: 760px;
+    width: 500px;
+}
+.post-header{
+    display: flex;
+    height: 6%;
+    align-items: center;
+    margin-left: 5px;
+}
+.post-body{
+    padding: 10px;
+}
+p{
+    margin: 0px;
+}
+#upcenter{
+    width: 95%;
+    margin-left: 5px;
+}
+div{
+    font-family: 'Source Code Pro', monospace;
+    vertical-align: middle;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 0px 10px;
+}
+#down p{
+    margin: 5px 0px 10px;
+}
